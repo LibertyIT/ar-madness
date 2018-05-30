@@ -121,7 +121,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDele
     //resets the timer
     func resetTimer(){
         timer.invalidate()
-        seconds = 60
+        seconds = 30
         timerLabel.text = "\(seconds)"
     }
     
